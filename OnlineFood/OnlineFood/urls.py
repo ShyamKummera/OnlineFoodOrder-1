@@ -22,7 +22,7 @@ from OnlineFood import settings
 urlpatterns = [
     path('admin/',include('pwn.urls')),
     path('vendor/',include('vendor.urls')),
-    path('',include('customer.urls')),
+    path('customer/',include('customer.urls')),
 ]
 
 if settings.DEBUG:
